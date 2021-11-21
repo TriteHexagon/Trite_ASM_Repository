@@ -12,7 +12,7 @@ Tutorial coming soon!
 
 ## noisesampleset
 
-Tutorial coming soon!
+[Tutorial](https://github.com/TriteHexagon/Trite_ASM_Repository/wiki/Add-a-new-music-command-to-change-drumkits)
 
 ## noisesampleset + wavetype
 
