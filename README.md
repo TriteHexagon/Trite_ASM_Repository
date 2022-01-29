@@ -8,11 +8,12 @@ You can use these songs right away in your hack. Yay!
 
 ## Wavetype
 
-Tutorial coming soon!
+
+[Tutorial](https://github.com/TriteHexagon/Trite_ASM_Repository/wiki/Add-more-wavetables)
 
 ## noisesampleset
 
-Tutorial coming soon!
+[Tutorial](https://github.com/TriteHexagon/Trite_ASM_Repository/wiki/Add-a-new-music-command-to-change-drumkits)
 
 ## noisesampleset + wavetype
 
