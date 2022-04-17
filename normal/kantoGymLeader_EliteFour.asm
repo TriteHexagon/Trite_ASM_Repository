@@ -18,7 +18,7 @@ Music_KantoGymLeaderFRLG_Ch1:
 	notetype 12, $e3
 	tempo 104
 	stereopanning $f
-callchannel Music_KantoGymLeaderFRLG_Ch1_Master_Intro
+	callchannel Music_KantoGymLeaderFRLG_Ch1_Master_Intro
 ;Bar 3
 	dutycycle $2
 	octave 3
@@ -1182,7 +1182,7 @@ Music_KantoGymLeaderFRLG_Ch4_Bar24_25:
 Music_KantoGymLeaderFRLG_Ch4_Bar27_28_29:
 	note G#, 2
 	loopchannel 27, Music_KantoGymLeaderFRLG_Ch4_Bar27_28_29
-callchannel Music_KantoGymLeaderFRLG_Ch4_Bar29_38
+	callchannel Music_KantoGymLeaderFRLG_Ch4_Bar29_38
 ;Bar 39
 Music_KantoGymLeaderFRLG_Ch4_Bar39_44:
 	note G#, 2
@@ -1320,7 +1320,7 @@ Music_KantoEliteFourFRLG_Ch1:
 	notetype 12, $e3
 	tempo 104
 	stereopanning $f
-callchannel Music_KantoGymLeaderFRLG_Ch1_Master_Intro
+	callchannel Music_KantoGymLeaderFRLG_Ch1_Master_Intro
 ;Bar 3
 Music_KantoEliteFourFRLG_Ch1_loop:
 	pitchoffset 0, D#
@@ -1812,7 +1812,7 @@ Music_KantoEliteFourFRLG_Ch4_Bar24_25:
 Music_KantoEliteFourFRLG_Ch4_Bar27_28_29:
 	note G#, 2
 	loopchannel 27, Music_KantoEliteFourFRLG_Ch4_Bar27_28_29
-callchannel Music_KantoGymLeaderFRLG_Ch4_Bar29_38
+	callchannel Music_KantoGymLeaderFRLG_Ch4_Bar29_38
 ;Bar 39
 Music_KantoEliteFourFRLG_Ch4_Bar39_44:
 	note G#, 2
