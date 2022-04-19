@@ -1,6 +1,6 @@
 # TriteHexagon's ASM Repository
 
-Here you can find all my Pokémon songs to use in your own hacks. Some of the songs utilize custom code so please follow the instructions here to get them working, or contact me.
+Here you can find all my Pokémon songs to use in your own hacks. Some of the songs utilize custom code so please follow the instructions here to get them working, or contact me so I can help.
 
 ## Normal
 
