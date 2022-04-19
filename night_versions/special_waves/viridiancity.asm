@@ -842,7 +842,7 @@ Music_GSCViridianCity_Night_loop: ; f4246
 	callchannel Music_GSCViridianCity_branch_f42a2
 	note E_, 4
 	vibrato $18, $15
-	intensity $1E ;dn 2, 3, 4, 4, 5, 6, 6, 7, 8, 9, 11, 11, 12, 12, 13, 7, 7, 13, 12, 12, 11, 11, 9, 8, 7, 6, 6, 5, 4, 4, 3, 2
+	intensity $1A ;dn 2, 3, 4, 4, 5, 6, 6, 7, 8, 9, 11, 11, 12, 12, 13, 7, 7, 13, 12, 12, 11, 11, 9, 8, 7, 6, 6, 5, 4, 4, 3, 2
 	callchannel Music_GSCViridianCity_Ch3_Branch1
 	loopchannel 0, Music_GSCViridianCity_Night_loop
 
