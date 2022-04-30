@@ -503,5 +503,5 @@ Music_Route38Night_Ch3:
 
 Music_Route38Night_Ch4: ; eeb4d
 	stereopanning $f
-	togglenoise $6
+	togglenoise 6
 	loopchannel 0, Music_Route38_branch_eeb51

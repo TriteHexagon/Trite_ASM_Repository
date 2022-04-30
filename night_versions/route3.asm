@@ -567,7 +567,7 @@ Music_GSCRoute3_Night_Ch3: ; ec45b
 	callchannel Music_GSCRoute3_branch_ec47f
 
 Music_GSCRoute3_Night_Ch4: ; ec4eb
-	togglenoise $9
+	togglenoise 10
 	notetype $c
 	note __, 10
 	callchannel Music_GSCRoute3_branch_ec4f0

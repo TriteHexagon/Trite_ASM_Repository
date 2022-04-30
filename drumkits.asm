@@ -7,10 +7,13 @@ Drumkits: ; e8e52
 	dw Drumkit5
 	dw Drumkit0S ;6
 	dw Drumkit1S ;7
-	dw Drumkit3S ;8
-	dw Drumkit5S ;9
+	dw Drumkit_Empty ;8
+	dw Drumkit3S ;9
+	dw Drumkit4S ;10
+	dw Drumkit5S ;11
 ; e8e5e
 
+Drumkit_Empty:
 Drumkit0: ; e8e5e
 	dw Drum00    ; rest
 	dw Snare1    ; c
@@ -38,7 +41,7 @@ Drumkit1: ; e8e78
 	dw Triangle4 ;G#
 	dw Snare9    ;A_
 	dw Snare10   ;A#
-	dw Snare11   ;G_
+	dw Snare11   ;B_
 Drumkit2: ; e8e92
 	dw Drum00
 	dw Snare1    ;C_
@@ -60,16 +63,16 @@ Drumkit3:
 	dw Snare14   ;D_
 	dw Kick1     ;D#
 	dw Triangle5 ;E_
-	dw HiHat3    ;F_ was Drum20
+	dw Drum20    ;F_
 	dw Drum27    ;F#
 	dw Drum28    ;G_
 	dw Drum29    ;G#
-	dw Snare9    ;A_ was Drum00
+	dw Drum20    ;A_
 	dw Kick2     ;A#
 	dw Crash2    ;B_
 Drumkit4: ; e8ec6
 	dw Drum00
-	dw Snare2 ;was Drum20
+	dw Drum20
 	dw Snare13
 	dw Snare14
 	dw Kick1
@@ -137,6 +140,20 @@ Drumkit3S: ; 8
 	dw Snare9_Soft
 	dw Kick2_Soft
 	dw Crash2_Soft
+Drumkit4S: ; e8ec6
+	dw Drum00
+	dw Drum20
+	dw Snare13_Soft
+	dw Snare14_Soft
+	dw Kick1_Soft
+	dw Drum33_Soft
+	dw Triangle5_Soft
+	dw Drum35_Soft
+	dw Drum31_Soft
+	dw Drum32_Soft
+	dw Drum36_Soft
+	dw Kick2_Soft
+	dw Crash1
 Drumkit5S: ; 9
 	dw Drum00
 	dw Snare9_Soft ;C_
@@ -144,13 +161,14 @@ Drumkit5S: ; 9
 	dw Snare11_Soft ;D_
 	dw Drum27_Soft ;D#
 	dw Drum28_Soft ;E_
-	dw Drum29_Soft ;F_
-	dw Drum05 ;F#
+	dw Drum29_Soft  ;F_
+	dw Drum05       ;F#
 	dw Triangle1_Soft ;G_
 	dw Crash1 ;G#
 	dw Snare14_Soft ;A_
 	dw Snare13_Soft ;A#
 	dw Kick2_Soft ;B_
+; e8efa
 
 Drum00: ; e8efa
 ; unused
@@ -354,13 +372,6 @@ Kick2: ; e8fbb
 	endchannel
 ; e8fc2
 
-TaikoDrum:
-	; noise D_,  4, $a3, $11
-	; noise D_,  4, $31, $01
-	noise D_,  4, $91, $21 
-	noise D_,  4, $21, $11
-	endchannel
-
 ;Softer Drumkits
 
 Snare12_Soft:
@@ -396,6 +407,34 @@ Drum28_Soft:
 Drum29_Soft:
 	noise D_,  4, $81, $11
 	noise D_,  4, $11, $00
+	endchannel
+
+Drum31_Soft: ; e8f97
+	noise D_,  4, $41, $21
+	noise D_,  4, $11, $11
+	endchannel
+; e8f9e
+
+Drum32_Soft: ; e8f9e
+	noise D_,  4, $41, $50
+	noise D_,  4, $11, $11
+	endchannel
+; e8fa5
+
+Drum33_Soft: ; e8fa5
+	noise C#,  1, $91, $31
+	endchannel
+; e8fa9
+
+Drum35_Soft: ; e8fad
+	noise D_,  4, $71, $00
+	noise D_,  4, $11, $00
+	endchannel
+; e8fb4
+
+Drum36_Soft: ; e8fb4
+	noise D_,  4, $71, $21
+	noise D_,  4, $11, $11
 	endchannel
 
 Snare4_Soft:

@@ -913,7 +913,7 @@ Music_VioletCityNight_Ch3_Master:
 	
 ; ============================================================================================================
 Music_VioletCityNight_Ch4:
-	togglenoise $8
+	togglenoise 9
 	notetype $c
 
 	loopchannel 0, Music_VioletCityNight_Ch4_Intro

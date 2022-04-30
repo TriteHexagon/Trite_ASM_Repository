@@ -803,7 +803,7 @@ Music_AzaleaTownNight_branch_f5acf: ; f5acf
 	
 ; ============================================================================================================
 Music_AzaleaTownNight_Ch4:
-	togglenoise $8
+	togglenoise 9
 	notetype $c
 	note __, 2
 	callchannel Music_AzaleaTown_branch_f5aea

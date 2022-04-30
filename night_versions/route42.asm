@@ -388,6 +388,6 @@ Music_Route42Night_Ch3:
 
 Music_Route42Night_Ch4:
 	stereopanning $f0
-	togglenoise $8
+	togglenoise 9
 	notetype $c
 	loopchannel 0, Music_Route42_branch_ee83b

@@ -809,7 +809,7 @@ Music_CeruleanCityGBS_Ch3_Bar17:
 ; ============================================================================================================
 
 Music_CeruleanCityGBS_Ch4:
-	togglenoise 3
+	togglenoise $3
 	notetype 12
 ;Bar 1
 	note __, 16
@@ -826,7 +826,9 @@ Music_CeruleanCityGBS_Ch4_loop:
 	callchannel Music_CeruleanCityGBS_Ch4_Type1
 ;Bar 5
 	callchannel Music_CeruleanCityGBS_Ch4_Type1
+	noisesampleset $1
 	note A_, 2
+	noisesampleset $3
 	note G_, 1
 	note G_, 1
 	note D#, 2
@@ -849,8 +851,10 @@ Music_CeruleanCityGBS_Ch4_loop:
 	callchannel Music_CeruleanCityGBS_Ch4_Type1
 ;Bar 9
 	callchannel Music_CeruleanCityGBS_Ch4_Type1
+	noisesampleset $1
 	note A_, 2
 	note F_, 2
+	noisesampleset $3
 	note D#, 2
 	note D#, 1
 	note D#, 1
@@ -866,14 +870,18 @@ Music_CeruleanCityGBS_Ch4_loop:
 	note G_, 1
 rept 2
 	note D#, 2
+	noisesampleset $1
 	note A_, 2
+	noisesampleset $3
 	note G_, 1
 	note G_, 1
 endr
 ;Bar 13
 	note D#, 2
+	noisesampleset $1
 	note F_, 2
 	note F_, 12
+	noisesampleset $3
 ;Bar 14
 Music_CeruleanCityGBS_Ch4_Bar14:
 	note C#, 1
@@ -885,14 +893,18 @@ Music_CeruleanCityGBS_Ch4_Bar14:
 	loopchannel 7, Music_CeruleanCityGBS_Ch4_Bar14
 	note C#, 1
 	note C#, 1
+	noisesampleset $1
 	note F_, 2
+	noisesampleset $3
 	note D#, 2
 	note D#, 1
 	note D#, 1
 	loopchannel 0, Music_CeruleanCityGBS_Ch4_loop
 
 Music_CeruleanCityGBS_Ch4_Type1:
+	noisesampleset $1
 	note A_, 2;
+	noisesampleset $3
 	note G_, 1
 	note G_, 1
 	note D#, 2
@@ -910,11 +922,15 @@ Music_CeruleanCityGBS_Ch4_Type2:
 	endchannel
 
 Music_CeruleanCityGBS_Ch4_Type3:
+	noisesampleset $1
 	note A_, 2;
+	noisesampleset $3
 	note G_, 1
 	note G_, 1
 	note D#, 2
+	noisesampleset $1
 	note F_, 2
+	noisesampleset $3
 	endchannel
 
 ; ============================================================================================================
@@ -1524,7 +1540,7 @@ Music_CeruleanCityGBSNight_Ch3_Type5:
 ; ============================================================================================================
 
 Music_CeruleanCityGBSNight_Ch4:
-	togglenoise 8
+	togglenoise 9
 	notetype 12
 ;Bar 1
 	note __, 16

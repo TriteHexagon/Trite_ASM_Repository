@@ -603,7 +603,7 @@ Music_GoldenrodCityNight_Ch3:
 	
 ; ============================================================================================================
 Music_GoldenrodCityNight_Ch4:
-	togglenoise $8
+	togglenoise 9
 	notetype $c
 	note __, 16
 	note __, 16

@@ -546,5 +546,5 @@ Music_GSCRoute12_Night_Ch3
 	callchannel Music_GSCRoute12_Ch3_Entry
 
 Music_GSCRoute12_Night_Ch4
-	togglenoise $9
+	togglenoise 10
 	callchannel Music_GSCRoute12_Ch4_Entry

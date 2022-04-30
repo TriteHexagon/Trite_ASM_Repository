@@ -934,7 +934,7 @@ Music_Route26Night_Ch3_Branch2: ; ef22f
 	
 ; ============================================================================================================
 Music_Route26Night_Ch4:
-	togglenoise $9
+	togglenoise 10
 	notetype $c
 
 	callchannel Music_Route26_branch_ef23c

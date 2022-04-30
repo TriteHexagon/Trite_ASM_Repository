@@ -1050,7 +1050,7 @@ Music_FriendlyShop_Ch3_Bar11:
 ; ============================================================================================================
 
 Music_FriendlyShop_Ch4:
-	togglenoise 3
+	togglenoise $3
 	stereopanning $f
 	notetype 12
 ;Bar 1
@@ -1060,7 +1060,9 @@ Music_FriendlyShop_Ch4:
 	note D_, 4
 	note D_, 6
 ;Bar 2
+	noisesampleset 1
 	note F_, 12
+	noisesampleset 3
 ;Bar 3
 Music_FriendlyShop_Ch4_loop:
 	note B_, 4
@@ -1071,140 +1073,75 @@ Music_FriendlyShop_Ch4_loop:
 	note C#, 2
 	note C#, 2
 ;Bar 4
-	note D_, 2
-	note C#, 2
-	note C#, 2
-	note D_, 2
-	note C#, 2
-	note C#, 2
-	note D_, 2
-	note C#, 2
+	callchannel Music_FriendlyShop_Ch4_Bar4
 ;Bar 5
-	note D_, 2
-	note C#, 2
-	note D_, 2
-	note C#, 2
-	note C#, 2
-	note D_, 2
-	note C#, 2
-	note C#, 2
+	callchannel Music_FriendlyShop_Ch4_Bar5
 ;Bar 6
-	note D_, 2
-	note C#, 2
-	note C#, 2
-	note D_, 2
-	note C#, 2
-	note C#, 2
-	note D_, 2
-	note C#, 2
+	callchannel Music_FriendlyShop_Ch4_Bar4
 ;Bar 7
-	note D_, 2
-	note C#, 2
-	note D_, 2
-	note C#, 2
-	note C#, 2
-	note D_, 2
-	note C#, 2
-	note C#, 2
+	callchannel Music_FriendlyShop_Ch4_Bar5
 ;Bar 8
-	note D_, 2
-	note C#, 2
-	note C#, 2
-	note D_, 2
-	note C#, 2
-	note C#, 2
-	note D_, 2
-	note C#, 2
+	callchannel Music_FriendlyShop_Ch4_Bar4
 ;Bar 9
-	note D_, 2
-	note C#, 2
-	note D_, 2
-	note C#, 2
-	note C#, 2
-	note D_, 2
-	note C#, 2
-	note C#, 2
+	callchannel Music_FriendlyShop_Ch4_Bar5
 ;Bar 10
 	note D_, 16
 ;Bar 11
-	note D_, 2
-	note C#, 2
-	note D_, 2
-	note C#, 2
-	note C#, 2
-	note D_, 2
-	note C#, 2
-	note C#, 2
+	callchannel Music_FriendlyShop_Ch4_Bar5
 ;Bar 12
-	note D_, 2
-	note C#, 2
-	note C#, 2
-	note D_, 2
-	note C#, 2
-	note C#, 2
-	note D_, 2
-	note C#, 2
+	callchannel Music_FriendlyShop_Ch4_Bar4
 ;Bar 13
-	note D_, 2
-	note C#, 2
-	note D_, 2
-	note C#, 2
-	note C#, 2
-	note D_, 2
-	note C#, 2
-	note C#, 2
+	callchannel Music_FriendlyShop_Ch4_Bar5
 ;Bar 14
-	note D_, 2
-	note C#, 2
-	note C#, 2
-	note D_, 2
-	note C#, 2
-	note C#, 2
-	note D_, 2
-	note C#, 2
+	callchannel Music_FriendlyShop_Ch4_Bar4
 ;Bar 15
-	note D_, 2
-	note C#, 2
-	note D_, 2
-	note C#, 2
-	note C#, 2
-	note D_, 2
-	note C#, 2
-	note C#, 2
+	callchannel Music_FriendlyShop_Ch4_Bar5
 ;Bar 16
-	note D_, 2
-	note C#, 2
-	note C#, 2
-	note D_, 2
-	note C#, 2
-	note C#, 2
-	note D_, 2
-	note C#, 2
+	callchannel Music_FriendlyShop_Ch4_Bar4
 ;Bar 17
-	note D_, 2
-	note C#, 2
-	note D_, 2
-	note C#, 2
-	note C#, 2
-	note D_, 2
-	note C#, 2
-	note C#, 2
+	callchannel Music_FriendlyShop_Ch4_Bar5
 ;Bar 18
 	note D_, 16
 ;Bar 19
 Music_FriendlyShop_Ch4_part2:
+	noisesampleset 1
 	note F_, 4
+	noisesampleset 3
 	note D_, 2
 	note C#, 2
 	loopchannel 22, Music_FriendlyShop_Ch4_part2
 ;Bar 30
 	note D_, 2
+	noisesampleset 1
 	note F_, 4
 	note F_, 4
+	noisesampleset 3
 	note C#, 2
 	note D_, 2
 	note D_, 2
 	loopchannel 0, Music_FriendlyShop_Ch4_loop
+
+Music_FriendlyShop_Ch4_Bar4:
+	note D_, 2;
+	note C#, 2
+	note C#, 2
+	note D_, 2
+	note C#, 2
+	note C#, 2
+	note D_, 2
+	note C#, 2
+	endchannel
+
+Music_FriendlyShop_Ch4_Bar5:
+	note D_, 2;
+	note C#, 2
+	note D_, 2
+	note C#, 2
+	note C#, 2
+	note D_, 2
+	note C#, 2
+	note C#, 2
+	endchannel
 
 ; ============================================================================================================
 

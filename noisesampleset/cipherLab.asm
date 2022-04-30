@@ -533,7 +533,7 @@ endr
 ; ============================================================================================================
 
 Music_CipherLab_Ch4:
-	togglenoise 3
+	togglenoise $3
 	stereopanning $f
 	notetype 12
 
@@ -573,24 +573,27 @@ Music_CipherLab_Ch4_loop:
 	loopchannel 0, Music_CipherLab_Ch4_loop
 
 Music_CipherLab_Ch4_Type1:
-rept 2
 	note C#, 1
 	note C#, 1
 	note G_, 1
 	note C#, 1
 	stereopanning $ff
+	noisesampleset $1
 	note A_, 1
+	noisesampleset $3
     stereopanning $f
 	note G_, 1
 	note C#, 1
 	note G_, 1
-endr
+	loopchannel 2, Music_CipherLab_Ch4_Type1
 	endchannel
 
 Music_CipherLab_Ch4_Type1_SP:
 	stereopanning $ff;
 	note B_, 4
+	noisesampleset $1
 	note A_, 1
+	noisesampleset $3
     stereopanning $f
 	note G_, 1
 	note C#, 1
@@ -600,7 +603,9 @@ Music_CipherLab_Ch4_Type1_SP:
 	note G_, 1
 	note C#, 1
 	stereopanning $ff
+	noisesampleset $1
 	note A_, 1
+	noisesampleset $3
     stereopanning $f
 	note G_, 1
 	note C#, 1
@@ -613,7 +618,9 @@ Music_CipherLab_Ch4_Type2:
 	note G_, 1
 	note C#, 1
     stereopanning $ff
+	noisesampleset $1
 	note A_, 1
+	noisesampleset $3
     stereopanning $f
 	note G_, 1
 	note C#, 1
@@ -623,12 +630,16 @@ Music_CipherLab_Ch4_Type2:
 	note G_, 1
 	note C#, 1
 	stereopanning $ff
+	noisesampleset $1
 	note A_, 1
+	noisesampleset $3
     stereopanning $f
 	note G_, 1
 	note C#, 1
 	stereopanning $ff
+	noisesampleset $1
 	note A_, 1
+	noisesampleset $3
     stereopanning $f
 	endchannel
 
@@ -638,7 +649,9 @@ Music_CipherLab_Ch4_Type2_SP:
 	note G_, 1
 	note C#, 1
 	stereopanning $ff
+	noisesampleset $1
 	note A_, 1
+	noisesampleset $3
     stereopanning $f
 	note G_, 1
 	note C#, 1

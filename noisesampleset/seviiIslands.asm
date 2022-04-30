@@ -492,13 +492,15 @@ Music_SeviiIslands_Ch3_Main:
 ; ============================================================================================================
 
 Music_SeviiIslands_Ch4:
-	togglenoise 3
+	togglenoise $3
 	stereopanning $f
 	notetype 12
 ;Bar 1
 	note D#, 2
+	noisesampleset $1
 	note A_, 1
 	note A_, 1
+	noisesampleset $3
 	note D#, 2
 	note G_, 1
 	note G_, 1
