@@ -827,7 +827,7 @@ Music_PKMN_Center_Night_Ch3_end:
 Music_PKMN_Center_Night_Ch4:
 	notetype 8
 	stereopanning $ff
-	togglenoise 10
+	togglenoise 1
 
 Music_PKMN_Center_Night_Ch4_master:
 ;Ch4_Bar1:
@@ -842,45 +842,59 @@ Music_PKMN_Center_Night_Ch4_master:
 ;Ch4_Bar8:
 	note F_, 6
 	note E_, 4
-	note C#, 2
+	noisesampleset 3
+	note D#, 2
+	noisesampleset 1
 	note F_, 4
 	note F_, 2
 	note E_, 4
 ;Ch4_Bar9:
-	note C#, 2
-	note C#, 6
+	noisesampleset 3
+	note D#, 2
+	note D#, 6
+	noisesampleset 1
 	note F_, 2
 	note E_, 4
 	note E_, 10
 ;Ch4_Bar10:
-	note C#, 2
+	noisesampleset 3
+	note D#, 2
+	noisesampleset 1
 	note F_, 6
 	note E_, 6
 	note E_, 4
 	note E_, 2
 	note E_, 4
 ;Ch4_Bar11:
-	note C#, 2
+	noisesampleset 3
+	note D#, 2
+	noisesampleset 1
 	note F_, 6
 	note F_, 2
 	note E_, 4
 	note E_, 10
 ;Ch4_Bar12:
-	note C#, 2
+	noisesampleset 3
+	note D#, 2
+	noisesampleset 1
 	note F_, 6
 	note E_, 6
 	note E_, 4
 	note E_, 2
 	note E_, 4
 ;Ch4_Bar13:
-	note C#, 2
-	note C#, 6
+	noisesampleset 3
+	note D#, 2
+	note D#, 6
+	noisesampleset 1
 	note E_, 4
 	note E_, 2
 	note E_, 6
 	note E_, 4
 ;Ch4_Bar14:
-	note C#, 2
+	noisesampleset 3
+	note D#, 2
+	noisesampleset 1
 	note F_, 4
 	note E_, 2
 	note E_, 6
@@ -888,11 +902,15 @@ Music_PKMN_Center_Night_Ch4_master:
 	note E_, 4
 ;Ch4_Bar15:
 Music_PKMN_Center_Night_Ch4_loop1:
-	note C#, 2
+	noisesampleset 3
+	note D#, 2
+	noisesampleset 1
 	note E_, 4
 	note E_, 2
 	note E_, 4
-	note C#, 2
+	noisesampleset 3
+	note D#, 2
+	noisesampleset 1
 	note E_, 4
 	note E_, 2
 	note E_, 4
@@ -901,8 +919,10 @@ Music_PKMN_Center_Night_Ch4_loop1:
 	callchannel Music_PKMN_Center_Night_Ch4_Bar17_18
 ;Ch4_Bar18:
 ;Ch4_Bar19:
-	note C#, 2
-	note C#, 4
+	noisesampleset 3
+	note D#, 2
+	note D#, 4
+	noisesampleset 1
 	note B_, 2
 	note E_, 6
 	note F_, 4
@@ -919,63 +939,93 @@ Music_PKMN_Center_Night_Ch4_loop1:
 	callchannel Music_PKMN_Center_Night_Ch4_Bar17_18
 ;Ch4_Bar22:
 ;Ch4_Bar23:
-	note C#, 2
+	noisesampleset 3
+	note D#, 2
+	noisesampleset 1
 	note B_, 4
-	note C#, 2
+	noisesampleset 3
+	note D#, 2
+	noisesampleset 1
 	note F_, 6
 	note B_, 4
-	note C#, 2
+	noisesampleset 3
+	note D#, 2
+	noisesampleset 1
 	note F_, 6
 ;Ch4_Bar24:
-	note C#, 4
-	note C#, 2
+	noisesampleset 3
+	note D#, 4
+	note D#, 2
+	noisesampleset 1
 	note F_, 4
 	note E_, 2
 	note B_, 2
-	note C#, 2
+	noisesampleset 3
+	note D#, 2
+	noisesampleset 1
 	note B_, 2
 	note F_, 4
 ;Ch4_Bar25:
 	note E_, 2
-	note C#, 4
+	noisesampleset 3
+	note D#, 4
+	noisesampleset 1
 	note B_, 2
 	note F_, 4
 	note E_, 2
 	note F_, 4
 	note E_, 2
 	note B_, 2
-	note C#, 2
+	noisesampleset 3
+	note D#, 2
+	noisesampleset 1
 	note B_, 2
 ;Ch4_Bar26:
 	note E_, 4
-	note C#, 2
+	noisesampleset 3
+	note D#, 2
+	noisesampleset 1
 	note E_, 4
 	note B_, 2
 	note F_, 4
 	note E_, 2
 	note E_, 4
-	note C#, 2
+	noisesampleset 3
+	note D#, 2
+	noisesampleset 1
 ;Ch4_Bar27:
-	note C#, 4
+	noisesampleset 3
+	note D#, 4
+	noisesampleset 1
 	note B_, 2
 	note F_, 4
-	note C#, 2
+	noisesampleset 3
+	note D#, 2
+	noisesampleset 1
 	note B_, 4
 	note E_, 2
-	note C#, 4
+	noisesampleset 3
+	note D#, 4
+	noisesampleset 1
 	note B_, 2
 ;Ch4_Bar28:
 	note F_, 4
-	note C#, 2
+	noisesampleset 3
+	note D#, 2
+	noisesampleset 1
 	note B_, 4
 	note F_, 2
 	note E_, 2
 	note E_, 2
 	note B_, 2
-	note C#, 2
+	noisesampleset 3
+	note D#, 2
+	noisesampleset 1
 	note E_, 2
-	note C#, 2
-	note C#, 6
+	noisesampleset 3
+	note D#, 2
+	note D#, 6
+	noisesampleset 1
 ;Ch4_Bar29:
 	note F_, 4
 	note E_, 2
@@ -985,15 +1035,21 @@ Music_PKMN_Center_Night_Ch4_loop1:
 	note F_, 6
 ;Ch4_Bar30:
 	note F_, 4
-	note C#, 2
+	noisesampleset 3
+	note D#, 2
+	noisesampleset 1
 	note F_, 6
 	note E_, 4
 	note E_, 2
-	note C#, 4
+	noisesampleset 3
+	note D#, 4
+	noisesampleset 1
 ;Ch4_Bar31:
 	note E_, 2
 	note E_, 6
-	note C#, 4
+	noisesampleset 3
+	note D#, 4
+	noisesampleset 1
 	note E_, 2
 	note E_, 6
 	note F_, 6
@@ -1002,16 +1058,22 @@ Music_PKMN_Center_Night_Ch4_loop1:
 	note E_, 2
 	note E_, 6
 	note E_, 4
-	note C#, 2
+	noisesampleset 3
+	note D#, 2
+	noisesampleset 1
 	note F_, 6
 ;Ch4_Bar33:
 	note E_, 6
 	note E_, 10
-	note C#, 8
+	noisesampleset 3
+	note D#, 8
+	noisesampleset 1
 ;Ch4_Bar34:
 	note E_, 6
 	note E_, 10
-	note C#, 2
+	noisesampleset 3
+	note D#, 2
+	noisesampleset 1
 	loopchannel 0, Music_PKMN_Center_Night_Ch4_master
 	endchannel
 
@@ -1019,18 +1081,24 @@ Music_PKMN_Center_Night_Ch4_Bar1:
 	note F_, 6
 	note E_, 6
 	note E_, 10
-	note C#, 8
+	noisesampleset 3
+	note D#, 8
 
+	noisesampleset 1
 	note E_, 6
 	note E_, 6
 	note E_, 4
-	note C#, 2
+	noisesampleset 3
+	note D#, 2
+	noisesampleset 1
 	loopchannel 3, Music_PKMN_Center_Night_Ch4_Bar1
 	endchannel
 
 Music_PKMN_Center_Night_Ch4_Bar17_18:
-	note C#, 2
-	note C#, 4
+	noisesampleset 3
+	note D#, 2
+	note D#, 4
+	noisesampleset 1
 	note B_, 2
 	note F_, 6
 	note F_, 4
