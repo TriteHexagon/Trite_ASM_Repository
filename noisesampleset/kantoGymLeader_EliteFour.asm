@@ -1076,7 +1076,7 @@ Music_KantoGymLeaderFRLG_Ch2_Bar42:
 ; ============================================================================================================
 
 Music_KantoGymLeaderFRLG_Ch4:
-	togglenoise 3
+	togglenoise $3
 	notetype 12
 ;Bar 1
 	note __, 16
@@ -1091,42 +1091,56 @@ Music_KantoGymLeaderFRLG_Ch4:
 ;Bar 4
 	callchannel Music_KantoGymLeaderFRLG_Ch4_Type2
 	note G#, 2
-	note F_, 6
+	noisesampleset 1
+	note E_, 6
+	noisesampleset 3
 ;Bar 5
 	note G#, 2
 	note G#, 1
 	note G#, 1
-	note F_, 2
+	noisesampleset 1
+	note E_, 2
+	noisesampleset 3
 	note G#, 1
 	note G#, 1
 	callchannel Music_KantoGymLeaderFRLG_Ch4_Type2
 ;Bar 6
 	callchannel Music_KantoGymLeaderFRLG_Ch4_Type2
 	note G#, 2
-	note F_, 6
+	noisesampleset 1
+	note E_, 6
+	noisesampleset 3
 ;Bar 7
 	callchannel Music_KantoGymLeaderFRLG_Ch4_Type2
 	callchannel Music_KantoGymLeaderFRLG_Ch4_Type2
 ;Bar 8
 	callchannel Music_KantoGymLeaderFRLG_Ch4_Type2
 	note G#, 2
-	note F_, 6
+	noisesampleset 1
+	note E_, 6
+	noisesampleset 3
 ;Bar 9
 	note G#, 2
 	note G#, 1
 	note G#, 1
-	note F_, 2
+	noisesampleset 1
+	note E_, 2
+	noisesampleset 3
 	note G#, 1
 	note G#, 1
 	callchannel Music_KantoGymLeaderFRLG_Ch4_Type2
 ;Bar 10
 	callchannel Music_KantoGymLeaderFRLG_Ch4_Type2
 	note G#, 2
-	note F_, 6
+	noisesampleset 1
+	note E_, 6
+	noisesampleset 3
 ;Bar 11
 Music_KantoGymLeaderFRLG_Ch4_loop:
 Music_KantoGymLeaderFRLG_Ch4_bar11_18:
-	note F_, 2
+	noisesampleset 1
+	note E_, 2
+	noisesampleset 3
 	note G#, 2
 	note G#, 2
 	note G#, 2
@@ -1136,7 +1150,9 @@ Music_KantoGymLeaderFRLG_Ch4_bar11_18:
 	note G#, 2
 	loopchannel 8, Music_KantoGymLeaderFRLG_Ch4_bar11_18
 ;Bar 19
-	note F_, 2
+	noisesampleset 1
+	note E_, 2
+	noisesampleset 3
 	note F#, 2
 	note G#, 1
 	note G#, 1
@@ -1145,12 +1161,16 @@ Music_KantoGymLeaderFRLG_Ch4_bar11_18:
 	callchannel Music_KantoGymLeaderFRLG_Ch4_Type1
 ;Bar 20
 	callchannel Music_KantoGymLeaderFRLG_Ch4_Type1
-	note F_, 2
+	noisesampleset 1
+	note E_, 2
+	noisesampleset 3
 	note G#, 1
 	note G#, 1
 	note G#, 1
 	note G#, 1
-	note F_, 2
+	noisesampleset 1
+	note E_, 2
+	noisesampleset 3
 ;Bar 21
 	callchannel Music_KantoGymLeaderFRLG_Ch4_Type1
 	callchannel Music_KantoGymLeaderFRLG_Ch4_Type1
@@ -1188,15 +1208,21 @@ Music_KantoGymLeaderFRLG_Ch4_Bar39_44:
 	note G#, 2
 	note G#, 1
 	note G#, 1
-	note F_, 2
+	noisesampleset 1
+	note E_, 2
+	noisesampleset 3
 	note G#, 1
 	note G#, 1
 	loopchannel 12, Music_KantoGymLeaderFRLG_Ch4_Bar39_44
 	loopchannel 0, Music_KantoGymLeaderFRLG_Ch4_loop
 
 Music_KantoGymLeaderFRLG_Ch4_Type1:
-	note F_, 2;
-	note F_, 2
+	noisesampleset 1
+	note E_, 2
+	noisesampleset 3;
+	noisesampleset 1
+	note E_, 2
+	noisesampleset 3
 	note G#, 1
 	note G#, 1
 	note G#, 1
@@ -1244,7 +1270,9 @@ Music_KantoGymLeaderFRLG_Ch4_Bar22_23:
 
 Music_KantoGymLeaderFRLG_Ch4_Bar29_38:
 ;Bar 29;
-	note F_, 2
+	noisesampleset 1
+	note E_, 2
+	noisesampleset 3
 	note G#, 2
 	note G#, 2
 ;Bar 31
@@ -1706,7 +1734,7 @@ Music_KantoEliteFourFRLG_Ch3_loop:
 ; ============================================================================================================
 
 Music_KantoEliteFourFRLG_Ch4:
-	togglenoise 3
+	togglenoise $3
 	notetype 12
 ;Bar 1
 	note __, 16

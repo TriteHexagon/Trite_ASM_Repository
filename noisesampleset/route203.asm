@@ -1788,7 +1788,7 @@ Music_Route203Day_Ch3_Type4:
 ; ============================================================================================================
 
 Music_Route203_Ch4:
-	togglenoise 5
+	togglenoise $5
 	notetype 4
 ;Bar 1
 	note __, 16
@@ -1823,19 +1823,19 @@ Music_Route203_Ch4_loop:
 	note B_, 4
 	note B_, 4
 	note B_, 4
-	noisesampleset 3
+	noisesampleset 1
 	note F_, 12
 	noisesampleset 5
 	note B_, 8
 	note E_, 4
-	noisesampleset 3
+	noisesampleset 1
 	note F_, 12
 	noisesampleset 5
 ;Bar 10
 	note E_, 4
 	note E_, 4
 	note E_, 4
-	noisesampleset 3
+	noisesampleset 1
 	note F_, 8
 	noisesampleset 5
 	note B_, 4
@@ -1849,7 +1849,7 @@ Music_Route203_Ch4_loop:
 	note B_, 4
 	note E_, 4
 	note E_, 4
-	noisesampleset 3
+	noisesampleset 1
 	note F_, 8
 	noisesampleset 5
 	note B_, 4
@@ -2003,7 +2003,7 @@ Music_Route203_Ch4_loop:
 	note G#, 4
 	noisesampleset 5
 	note C_, 4
-	noisesampleset 3
+	noisesampleset 1
 	note F_, 8
 	noisesampleset 5
 	note F_, 4
@@ -2015,7 +2015,7 @@ Music_Route203_Ch4_loop:
 	note G#, 4
 	noisesampleset 5
 	note C_, 4
-	noisesampleset 3
+	noisesampleset 1
 	note F_, 8
 	noisesampleset 5
 	note F_, 4
@@ -2095,7 +2095,7 @@ Music_Route203_Ch4_Type1:
 	note A_, 4
 	noisesampleset 0
 	note A_, 4
-	noisesampleset 3
+	noisesampleset 1
 	note F_, 4
 	noisesampleset 5
 	note C_, 4
@@ -2107,7 +2107,7 @@ Music_Route203_Ch4_Type2:
 	note E_, 4
 	noisesampleset 0
 	note A_, 4
-	noisesampleset 3
+	noisesampleset 1
 	note F_, 4
 	noisesampleset 5
 	note C_, 4
@@ -2120,7 +2120,7 @@ Music_Route203_Ch4_Type3:
 	noisesampleset 5
 	note E_, 4
 	note C_, 4
-	noisesampleset 3
+	noisesampleset 1
 	note F_, 4
 	noisesampleset 0
 	note A_, 4
@@ -2132,7 +2132,7 @@ Music_Route203_Ch4_Type4:
 	note E_, 4
 	note E_, 4
 	note C_, 4
-	noisesampleset 3
+	noisesampleset 1
 	note F_, 4
 	noisesampleset 0
 	note A_, 4
@@ -2144,7 +2144,7 @@ Music_Route203_Ch4_Type5:
 	note C_, 4
 	note E_, 4
 	note C_, 4
-	noisesampleset 3
+	noisesampleset 1
 	note F_, 4
 	noisesampleset 0
 	note A_, 4
@@ -2194,7 +2194,7 @@ Music_Route203_Ch4_Type10:
 	note B_, 4
 	note F_, 4
 	note C_, 4
-	noisesampleset 3
+	noisesampleset 1
 	note F_, 8
 	noisesampleset 5
 	note F_, 4
@@ -2205,7 +2205,7 @@ Music_Route203_Ch4_Type11:
 	note B_, 4
 	note F_, 4
 	note C_, 4
-	noisesampleset 3
+	noisesampleset 1
 	note F_, 4
 	noisesampleset 0
 	note G#, 4
@@ -2222,7 +2222,7 @@ Music_Route203_Ch4_Type12:
 	note G#, 4
 	noisesampleset 5
 	note E_, 4
-	noisesampleset 3
+	noisesampleset 1
 	note F_, 4
 	noisesampleset 5
 	endchannel
@@ -2235,7 +2235,7 @@ Music_Route203_Ch4_Type13:
 	noisesampleset 0
 	note A_, 4
 	note G#, 4
-	noisesampleset 3
+	noisesampleset 1
 	note F_, 4
 	noisesampleset 5
 	endchannel
