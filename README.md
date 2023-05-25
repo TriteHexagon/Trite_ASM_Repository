@@ -1,6 +1,10 @@
 # TriteHexagon's ASM Repository
 
-Here you can find all my Pokémon songs to use in your own hacks. Some of the songs utilize custom code so please follow the instructions here to get them working, or contact me so I can help.
+Here you can find all my Pokémon demixes to use in your own hacks. These are all **FREE TO USE**, but please credit me wherever you can.
+
+Some of the songs utilize custom code so please follow the instructions here to get them working, or contact me so I can help.
+
+A quick note: all the songs are in the old sound format (from before 2020). They should work in newer versions of pokecrystal, but if you want them converted to the new format, use [dannye's converter inclued in crystal-tracker](https://github.com/dannye/crystal-tracker). It should work for all music except for the ones with custom code.
 
 
 ## Normal
